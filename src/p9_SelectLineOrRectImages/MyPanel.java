@@ -1,6 +1,8 @@
 package p9_SelectLineOrRectImages;
 
+import java.awt.BorderLayout;
 import java.awt.Color;
+import java.awt.Component;
 import java.awt.Graphics;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -9,17 +11,11 @@ import java.awt.event.MouseEvent;
 import java.awt.event.MouseMotionAdapter;
 import java.util.ArrayList;
 
-import javax.swing.JPanel;
-import javax.swing.JToolBar;
-import javax.swing.BoxLayout;
-import java.awt.BorderLayout;
-import javax.swing.JRadioButton;
 import javax.swing.ButtonGroup;
-import javax.swing.Icon;
 import javax.swing.ImageIcon;
-
-import java.awt.Component;
-import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JRadioButton;
+import javax.swing.JToolBar;
 
 
 public class MyPanel extends JPanel implements ActionListener{
